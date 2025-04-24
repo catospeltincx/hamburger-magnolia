@@ -21,12 +21,10 @@ nav {
 
 .nav-menu {
   display: none;
-  z-index: 1;
 }
 
 #check:checked ~ .nav-menu {
   display: block;
-
   display: flex;
   flex-direction: column;
 }
